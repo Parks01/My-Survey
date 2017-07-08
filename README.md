@@ -16,8 +16,8 @@ ATOM
 
 **Description**
 
-This web page is dedicated to person that is trying to find the proper pet for there lifestyle.
-After you click the submit button below, you find your correct pet match.
+This web page is dedicated to person that is trying to find the proper colege for there lifestyle.
+After you click the submit button below, you find your correct college match.
 
 **Copyright and License Information**
 
