@@ -9,7 +9,7 @@ ATOM
 **Bugs**
 
 The console said "$" could not be identified. The hmtl is can read my jquery file.
-I used javascript and prompts, to ask and answer questions.
+I used javascript prompts and else statements to ask and answer questions.
 
 **Setup Instructions**
 
