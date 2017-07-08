@@ -6,6 +6,11 @@ Andrew Parks
 
 ATOM
 
+**Bugs**
+
+The console said "$" could not be identified. The hmtl is can read my jquery file.
+I used javascript and prompts, to ask and answer questions.
+
 **Setup Instructions**
 
 * Pull up your terminal
@@ -16,7 +21,7 @@ ATOM
 
 **Description**
 
-This web page is dedicated to person that is trying to find the proper colege for there lifestyle.
+This web page is dedicated to person that is trying to find the proper college for there lifestyle.
 After you click the submit button below, you find your correct college match.
 
 **Copyright and License Information**
