@@ -10,9 +10,9 @@ $(document).ready(function(){
   var question5 = $("input:radio[name=question5]:checked").val();
 
 
-    if(question1 === "seattle" && question2 ===  "Math" && question3 === "Basketball" && question4 === "Pho" && question5 == "Yes") { 
+    if(question1 === "seattle" && question2 ===  "math" && question3 === "basketball" && question4 === "pho" && question5 == "yes"){
 
-      $("#output h1").text("Your Match is the University Of Washington!");
+      $("#output h1").text("Your Match is the University Of Washington!")
     }
     else {
       $("#output h1").text("Your Match is the University Of Oregon!");
