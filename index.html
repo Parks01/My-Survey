@@ -9,34 +9,55 @@
   </head>
   <body>
     <h1>High School Student Survey</h1>
+      <h1>question</h1>
     <div class="container">
-      <form>
+      <form id="from1">
+
+        <label for="question1">Where are you from?</label>
         <div class="form-group">
-          <label for="question1">Where are you from?</label>
-          <input type="text" class="form-control" id="question1" placeholder="Answer">
+          <input type="radio" name="question1" value="seattle"> Seattle
         </div>
         <div class="form-group">
-          <label for="question2">Whats your favorite subject?</label>
-          <input type="text" class="form-control" id="question2" placeholder="Answer">
+          <input type="radio" name="question1" value="oregon"> Oregon
+        </div>
+      <label for="question2">Whats your favorite subject?</label>
+        <div class="form-group">
+          <input type="radio" name="question2"> Math
         </div>
         <div class="form-group">
-          <label for="question3">What type of activites do you enjoy?</label>
-            <input type="text" class="form-control" id="question3" placeholder="Answer">
-          </div>
-          <div class="form-group">
-            <label for="question4">Whats do you want to mjor in?</label>
-            <input type="text" class="form-control" id="question4" placeholder="Answer">
-            </div>
-            <div class="form-group">
-              <label for="question4">Do you need a college application?</label>
-              <input type="text" class="form-control" id="question4" placeholder="Answer">
-            </div>
-          <div class="form-group">
-            <div class="col-sm-offset-1 col-sm-10">
-              <button type="submit" class="btn btn-default" id="move"><strong>Submit</strong></button>
-            </div>
-          </div>
+          <input type="radio" name="question2"> English
+        </div>
+        <label for="question3">What type of activites do you enjoy?</label>
+        <div class="form-group">
+          <input type="radio" name="question3"> Soccer
+        </div>
+        <div class="form-group">
+          <input type="radio" name="question3">Basketball
+        </div>
+        <label for="question1">Whats your favorite food</label>
+        <div class="form-group">
+          <input type="radio" name="question4"> Fish
+        </div>
+        <div class="form-group">
+          <input type="radio" name="question4"> Pho
+        </div>
+        <label for="question1">Do you like the outdoors?</label>
+        <div class="form-group">
+          <input type="radio" name="question5"> Yes
+        </div>
+        <div class="form-group">
+          <input type="radio" name="question5"> N0
+        </div>
+        <button type="submit" class="btn btn-default" id="move"><strong>Submit</strong></button>
       </form>
+
+      <div id="output">
+        <div class="from-group">
+          <h1></h1>
+        </div>
+
+      </div>
+
       </div>
       </body>
     </html>
